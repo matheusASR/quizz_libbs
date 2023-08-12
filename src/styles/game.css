@@ -1,0 +1,111 @@
+/* importar fontes letra */
+
+body {
+    background-image: url("../assets/fundo_app.png");
+    background-size: cover; 
+    background-repeat: no-repeat;
+    height: 1920px;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+
+.main__header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo__app {
+    /* top: 81px;
+    left: 390px; */
+    width: 396px;
+    height: 232px;
+    /* position: absolute; */
+}
+
+.back__page__button {
+    width: 180px;
+    height: 102px;
+    background: #0052A4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 19px 48px #0052A438;
+    border-radius: 22px;
+    font-size: 30px;
+    color: white;
+    opacity: 1;
+}
+
+.container__game {
+    /* top: 365px;
+    left: 64px; */
+    width: 89.5%;
+    height: 69%;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border-radius: 52px;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.container__game > h1 {
+    /* top: 531px;
+    left: 154px; */
+    width: 772px;
+    height: 183px;
+    /* ajustar tamanho para responsivo */
+    text-align: center;
+    font: normal normal 800 80px/88px Accord Alternate;
+    letter-spacing: 0px;
+    color: #0052A4;
+    opacity: 1;
+    /* ajustar tamanho letra: responsividade */
+}
+
+.container__game > h2 {
+    width: 81.1%;
+    height: 13.8%;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 0px;
+    color: #0052A4;
+    opacity: 1;
+    /* ajustar tamanho letra: responsividade */
+}
+
+.container__game > h3 {
+    /* top: 1089px;
+    left: 255px; */
+    width: 571px;
+    height: 196px;
+    text-align: center;
+    font-size: 40px;
+    letter-spacing: 0px;
+    color: #0052A4;
+    opacity: 1;
+}
+
+.start__game__button {
+    /* top: 1391px;
+    left: 377px;
+    width: 326px;
+    height: 102px; */
+    width: 34.3%;
+    height: 102px;
+    background: #0052A4 0% 0% no-repeat padding-box;
+    box-shadow: 0px 19px 48px #0052A438;
+    border-radius: 22px;
+    font-size: 50px;
+    color: white;
+    opacity: 1;
+
+    /* ajustar responsividade */
+}
