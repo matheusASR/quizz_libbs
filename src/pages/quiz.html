@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/reset.css" />
+    <link rel="stylesheet" href="../styles/quiz.css" />
+    <script type="module" src="../scripts/quiz.js" defer></script>
+    <title>Quiz Libbs</title>
+  </head>
+  <body>
+    <main>
+      <section class="main__header">
+        <a href="../../index.html">
+          <figure>
+            <img
+              class="logo__app"
+              src="../assets/logo_app.png"
+              alt="logo__app"
+            />
+          </figure>
+        </a>
+      </section>
+      <section class="container__game">
+        <div class="count__statement">
+          <section class="section__count__statement">
+            <p class="current__card" id="current-card"></p>
+            <p class="cards__total">/15</p>
+          </section>
+          <progress
+            class="progress__bar"
+            id="progress-bar"
+            value="0"
+            max="15"
+          ></progress>
+        </div>
+        <div class="box__statement">
+          <h1 class="statement__text" id="statement-text"></h1>
+        </div>
+        <div class="answer__box">
+          <img
+            class="answer__btn"
+            id="true-hand-circle"
+            src="../assets/true_hand_circle.png"
+            alt="mao_verdadeiro"
+          />
+          <img
+            class="answer__btn"
+            id="false-hand-circle"
+            src="../assets/false_hand_circle.png"
+            alt="mao_falso"
+          />
+        </div>
+        <img
+          class="cards__image"
+          src="../assets/cards_game.png"
+          alt="fundo__cartas__jogo"
+        />
+      </section>
+    </main>
+  </body>
+</html>
